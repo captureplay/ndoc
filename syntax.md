@@ -25,6 +25,7 @@ Currently supported tags are:
   * `read-only`                 - entity is read-only
   * `internal`                  - entity is meant to be private
   * `chainable`                 - method can be chained, i.e. the return value is the same object to which method belongs. E.g. $(...).on(...).on(...)
+  * `required`					- the properties is required in the constructor config
   * `deprecated`                - entity is considered deprecated. Deprecation tag in addition have the following flavors:
     * `deprecated: <from>`        - deprecated starting from version `from`
     * `deprecated: <from>..<out>` - deprecated starting from version `from` and will be removed by version `out`

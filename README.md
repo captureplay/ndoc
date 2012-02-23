@@ -54,7 +54,7 @@ NDoc uses data from `package.json` in current folder, if found one. This helps t
 
 ## Syntax
 
-[NDoc Syntax](https://github.com/nodeca/ndoc/blob/master/syntax.md).
+[NDoc Syntax](https://github.com/captureplay/ndoc/blob/master/syntax.md).
 It is similar to [PDoc](https://github.com/tobie/pdoc) one, with some extentions (see start of this doc for details).
 
 

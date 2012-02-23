@@ -92,7 +92,7 @@ mixin article(obj, parents)
 
     mixin title(obj, parents)
 
-    if obj.readonly || obj.chainable || obj.internal
+    if obj.readonly || obj.chainable || obj.internal || obj.required
       .labels
         if obj.readonly
           span.read-only read-only
@@ -100,6 +100,8 @@ mixin article(obj, parents)
           span.chainable chainable
         if obj.internal
           span.internal internal
+        if obj.required
+          span.required required
 
     if obj.deprecated
       .deprecated-note

@@ -22,6 +22,6 @@ NomNom.option('path', {
 
 var grammar = Fs.readFileSync(Fs.realpathSync(NomNom.parse().path), 'utf8');
 var parser  = new Jison.Parser(BNF.parse(grammar));
-
+//var parser = new Jison.Parser(grammar);
 
 process.stdout.write(parser.generate());

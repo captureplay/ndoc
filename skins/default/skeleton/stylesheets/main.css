@@ -481,6 +481,9 @@ span.internal {
 span.chainable {
   background-color: #46a546;
 }
+span.required {
+  background-color: #f8181B;
+}
 .deprecated-note {
   color: #f00;
 }
